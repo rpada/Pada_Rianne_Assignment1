@@ -1,4 +1,4 @@
-    <script src="products.js"></script>
+    <script src="products.js"></script> <!--takes data from products.js-->
     
     <script>
       let params = (new URL(document.location)).searchParams; //Parses out the URL starting with the file name, quantity and purchase submit.
@@ -219,7 +219,7 @@
                       `); 
                           }
                         }
-                
+                // Taken from Daniel Port's invoice example
                         // Compute tax
                         var tax_rate = 0.04;
                         var tax = tax_rate * subtotal;
@@ -238,7 +238,7 @@
                         // Compute grand total
                         var total = subtotal + tax + shipping;
                       </script>
-           
+           <!--Taken from Daniel Port's invoice example-->
           <tr>
             <td colspan="4" width="100%" style="text-align: center;"><strong>Checkout</strong></td>
           </tr>

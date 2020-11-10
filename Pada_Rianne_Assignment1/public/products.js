@@ -1,4 +1,4 @@
-var products = [ //products in my shop
+var products = [ //products array for data in my shop
     {
     "name": "Candy Corn",
     "price": 4.00,

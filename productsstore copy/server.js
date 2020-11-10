@@ -160,6 +160,3 @@ app.listen(8080, () => console.log(`listening on port 8080`));
 response.send(receipt);
 response.end();
 }
-
-
-
